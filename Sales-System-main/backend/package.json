@@ -1,0 +1,20 @@
+{
+  "name": "roxiler-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project is made for the assignment given by Roxiler Systems",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Pandit Bhupender Kumar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
